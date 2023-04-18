@@ -3,7 +3,7 @@
 import minimist from 'minimist';
 import { rps } from '../lib/rpsls.js';
 const args = minimist(process.argv.slice(2));
-const help = "Usage: node-rps [SHOT]
+const help = 'Usage: node-rps [SHOT]
 Play Rock Paper Scissors (RPS)
   -h, --help      display this help message and exit
   -r, --rules     display the rules and exit
@@ -15,7 +15,7 @@ Examples:
 const rules = "Rules for Rock Paper Scissors:
     - Scissors CUTS Paper
     - Paper COVERS Rock
-    - Rock CRUSHES Scissors";
+    - Rock CRUSHES Scissors';
 if (args.h || args.help) {
     console.log(help);
     process.exit(0);
