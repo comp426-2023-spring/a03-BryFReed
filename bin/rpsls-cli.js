@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+/usr/bin/env node
 
 import minimist from 'minimist';
 import { rpsls } from '../lib/rpsls.js';
@@ -15,7 +15,7 @@ Examples:
   node-rps rock   Return JSON with results for RPS played against a simulated opponent.
                   e.g {"player":"rock","opponent":"scissors","result":"win"}`;
 
-const rules = "Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
+const rules = `Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
     - Scissors CUTS Paper
     - Paper COVERS Rock
     - Rock SMOOSHES Lizard
@@ -25,7 +25,7 @@ const rules = "Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
     - Lizard EATS Paper
     - Paper DISPROVES Spock
     - Spock VAPORIZES Rock
-    - Rock CRUSHES Scissors";
+    - Rock CRUSHES Scissors`;
 if (args.h || args.help) {
     console.log(help);
     process.exit(0);
