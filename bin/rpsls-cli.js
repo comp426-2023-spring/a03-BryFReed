@@ -1,10 +1,8 @@
-#!/user/bin/env node
+#!/usr/bin/env node
 
 import minimist from 'minimist';
 import { rpsls } from '../lib/rpsls.js';
-
 const args = minimist(process.argv.slice(2));
-
 const help = `Usage: node-rps [SHOT]
 Play Rock Paper Scissors (RPS)
   -h, --help      display this help message and exit
