@@ -1,4 +1,4 @@
-/usr/bin/env node
+#!/user/bin/env node
 
 import minimist from 'minimist';
 import { rpsls } from '../lib/rpsls.js';
