@@ -1,6 +1,5 @@
-
 {
-  "name": "node-rpls",
+  "name": "node-rpsls",
   "version": "1.0.0",
   "description": "rps",
   "main": "./lib/rpsls.js",
@@ -9,20 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comp426-2023-spring/a03-BryFReed.git"
+    "url": "git+ssh://git@github.com:comp426-2023-spring/a03-BryFReed.git"
   },
-  "author": "BryFReed",
-  "license": "ISC",
+  "author": "RishiM0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a03-BryFReed/issues"
   },
   "homepage": "https://github.com/comp426-2023-spring/a03-BryFReed#readme",
-"bin": {
-    "node-rps": "./bin/rps-cli.js",
-    "node-rpsls": "./bin/rpsls-cli.js"
-  },
-  "type": "module",
   "dependencies": {
     "minimist": "^1.2.8"
-  }
+  },
+  "bin": {
+        "node-rps": "./bin/rps-cli.js",
+        "node-rpsls": "./bin/rpsls-cli.js"
+    },
+  "type": "module"
 }
